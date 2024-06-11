@@ -3,8 +3,8 @@
     "requiresFlatWidgetChildren": true,
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 71,
-    "pageSize": 3,
+    "topRow": 72,
+    "pageSize": 4,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
@@ -67,7 +67,7 @@
     "isLoading": false,
     "mainCanvasId": "kmhu25erry",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 140,
+    "originalBottomRow": 106,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -81,7 +81,7 @@
     "listData": "{{utils.getCompletedTasks.data}}",
     "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "List",
-    "bottomRow": 106,
+    "bottomRow": 107,
     "parentRowSpace": 10,
     "hideCard": false,
     "templateBottomRow": 16,
@@ -102,7 +102,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 34,
     "responsiveBehavior": "fill",
-    "originalTopRow": 77,
+    "originalTopRow": 71,
     "mobileLeftColumn": 4,
     "selectedItemView": "{{{}}}"
 }

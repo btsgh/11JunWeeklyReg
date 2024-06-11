@@ -1,0 +1,62 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1174,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 880,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 900,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_FindQuery",
+              "name": "FindQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "data_table.sortOrder.column || 'genres'",
+                "key_select.selectedOptionValue",
+                "data_table.sortOrder.order == \"desc\" ? -1 : 1",
+                "data_table.pageSize",
+                "data_table.searchText||\"\"",
+                "(data_table.pageNo - 1) * data_table.pageSize",
+                "order_select.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "666839bf9c5dbf7c4bbe0300_fa66a803-cb8c-4a53-81b5-baf54001b65e"
+}

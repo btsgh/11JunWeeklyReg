@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "666839bf9c5dbf7c4bbe0300_2e016c2a-cf73-4301-a1cd-f10db243c863",
+  "id": "Tasks_utils",
   "unpublishedCollection": {
     "name": "utils",
     "pageId": "Tasks",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "selectedTask",
@@ -19,10 +19,6 @@
         "name": "listState",
         "value": "'today'"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "Tasks_utils",
-  "deleted": false,
-  "gitSyncId": "666839bf9c5dbf7c4bbe0300_2e016c2a-cf73-4301-a1cd-f10db243c863"
+    ]
+  }
 }
